@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a,b,x;
+    cin>>a>>b;
+    cout<<"welcome to the calculator application"<<endl;
+    cout<<"enter 1 for addition, 2 for subtraction, 3 for multiplication and 4 for division: ";
+    cin>>x;
+    
+    switch(x){
+    case 1:
+        cout<<"the sum of "<<a<<" and "<<b<<" is: "<<a+b;
+        break;
+    case 2:
+        cout<<"the difference of "<<a<<" and"<<b<<" is: "<<a-b;
+        break;
+    case 3:
+        cout<<"the multiplication of "<<a<<" and"<<b<<"is: "<<a*b;
+        break;
+    case 4:
+        cout<<"the division of "<<a<<" by"<<b<<"gives: "<<a%b;
+        break;
+    }
+}
